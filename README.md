@@ -20,9 +20,7 @@ Deploying Rasa Bot over Google Cloud Platform using Docker.
 - test out the bot in the browser
 > http://localhost
 
-Youtube Video:
 
-https://www.youtube.com/watch?v=9C1Km6xfdMA
 
 ### For deploying over GCP Compute Engine:
 - Create the VM instance of Ubuntu over Compute Engine
@@ -61,7 +59,4 @@ https://www.youtube.com/watch?v=9C1Km6xfdMA
 
 - Once you see all the services up and running, open the ip address of the machine in the browser and test the bot
 
-Youtube Video: 
-
-https://youtu.be/qOHszxJsuGs
 
