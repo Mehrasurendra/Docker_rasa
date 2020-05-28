@@ -1,14 +1,14 @@
-# Rasa Chatbot Deployment
+# Rasa Deployment
 Deploying Rasa Bot over Google Cloud Platform using Docker.
 
-## Docker Prerequisites:
+## Prerequisites:
 - Docker
 - Docker Compose
 
 
 ## Instructions:
 
-### For Chatbot deploying locally:
+### For deploying locally:
 
 - clone this repository
 - run the below command within the project directory:
@@ -20,6 +20,9 @@ Deploying Rasa Bot over Google Cloud Platform using Docker.
 - test out the bot in the browser
 > http://localhost
 
+Youtube Video:
+
+https://www.youtube.com/watch?v=9C1Km6xfdMA
 
 ### For deploying over GCP Compute Engine:
 - Create the VM instance of Ubuntu over Compute Engine
@@ -33,7 +36,7 @@ Deploying Rasa Bot over Google Cloud Platform using Docker.
 - > curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add 
 - > sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 - > sudo apt-get update
-- > apt-cache policy docker-ce
+- >  apt-cache policy docker-ce
 - > sudo apt-get install -y docker-ce
 - > sudo systemctl status docker
      
@@ -46,7 +49,7 @@ Deploying Rasa Bot over Google Cloud Platform using Docker.
 
 #### Clone the Docker App
 
-- > git clone https://github.com/Mehrasurendra/Docker_rasa
+- > git clone https://github.com/Mehrasurendra/Docker_chat
 - > cd Rasa_Deployment
 
 #### Build the Docker app and run the services:
@@ -57,4 +60,8 @@ Deploying Rasa Bot over Google Cloud Platform using Docker.
 - > docker ps -a
 
 - Once you see all the services up and running, open the ip address of the machine in the browser and test the bot
+
+Youtube Video: 
+
+https://youtu.be/qOHszxJsuGs
 
